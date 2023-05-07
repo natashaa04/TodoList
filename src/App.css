@@ -1,0 +1,138 @@
+ @import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap'); 
+ 
+*{
+    margin: 0% 0% 0% 0%;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+h1{
+    background-color:rgb(145, 189, 178);
+}
+
+.main_div{
+    margin-left: 30%;
+    width: 30%;
+    height: 100vh;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 10%;
+    justify-content: center;
+    background-color: white;
+}
+
+ img{
+width: 10rem;
+height: 10rem;
+display: center;
+}
+input{
+    text-align: center;
+    height: 30px;
+    border:none;
+    background:transparent;
+    font-weight: 500;
+    width: 60%;
+    border-bottom: 2px solid black;
+    outline: none;
+
+}
+button{
+    border:none;
+    outline: none;
+    
+}
+.add{
+    min-height: 40px;
+    width:40px;
+    background :transparent;
+    background-color: white;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    font-weight: 1000;
+    border: 2px solid black;
+    border-radius: 90%;
+    background-color:rgb(145, 189, 178);
+    
+}
+.add:hover{
+    background-color: rgb(5, 197, 5);
+    border: 2px solid black;
+    border-radius: 80%;
+    
+    
+
+}
+
+ol{
+    background-color: white;
+    list-style: none;
+}
+li{
+    max-width: 18rem;
+    word-break: break-word;
+}
+
+
+.each-item{
+    background: #fff;
+    font-family: 'Prosto One', cursive;
+    font-weight: 1000;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    min-width: 1rem;
+    word-break:break-all;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.edit-btn{
+    background-color: white;
+}
+.edit-btnn{
+    color:blue;
+    background-color: white;
+}
+
+
+.delete-btn {
+  /* margin-left: -2.5rem; */
+ background-color: white;
+ position:absolute;
+ right: 30px;
+ clear:both;
+ z-index: 1;
+}
+.delete-btn:hover{
+    color: red;
+    
+    
+}
+.edit-btn:hover{
+    color: blue;
+    
+    
+}
+.clear-btn{
+    position: absolute;
+    bottom: 1%;
+    background-color: #fff;
+    font-weight: 1000;
+
+}
+.clear-btn:hover{
+    color: rgb(49, 16, 56);
+    font-size: large;
+}
+  
+   
+   
+
+
+
